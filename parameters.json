@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "logAnalyticsName": {
+        "value": "<log-analytics-workspace-name>"
+      },
+      "containerAppEnvName": {
+          "value": "<container-environment-name>"
+      },
+      "todoApiContainerName": {
+          "value": "<container-app-name>"
+      },
+      "containerRegistryName": {
+          "value": "<container-registry-name>"
+      }
+    }
+  }
